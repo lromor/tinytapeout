@@ -4,7 +4,7 @@ project:
   title: "tinytapeout" # Project title
   author: "Leonardo Romor" # Your name
   discord: "" # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description: "Demo submission" # One line description of what your project does
+  description: "4-bit combination lock demo built in Wokwi" # One line description of what your project does
   language: "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz: 0 # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,22 +15,22 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
+  ui[0]: "PROGRAM"
+  ui[1]: "CODE0"
+  ui[2]: "CODE1"
+  ui[3]: "CODE2"
+  ui[4]: "CODE3"
+  ui[5]: "ARM"
   ui[6]: ""
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
+  uo[0]: "STORED0"
+  uo[1]: "STORED1"
+  uo[2]: "STORED2"
+  uo[3]: "STORED3"
+  uo[4]: "UNLOCKED"
+  uo[5]: "LOCKOUT_N"
   uo[6]: ""
   uo[7]: ""
 
