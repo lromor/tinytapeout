@@ -1,6 +1,9 @@
+
 // Placeholder design: sum of two 4-bit inputs, 8-bit result.
 // Replace with the real Tiny Tapeout design.
-pub fn main(a: u4, b: u4) -> u8 { (a as u8) + (b as u8) }
+pub fn main(a: u4, b: u4) -> u8 {
+    (a as u8) + (b as u8)
+}
 
 #[test]
 fn main_test() {
